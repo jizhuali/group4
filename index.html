@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/hua12.webp" type="image/x-icon">
+    <title>四组介绍</title>
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- COMPURTED REM -->
+    <script>
+        ~ function () {
+            function computed() {
+                var HTML = document.documentElement,
+                    deviceW = HTML.clientWidth,
+                    designW = 375,
+                    ratic = deviceW / designW;
+                if (deviceW >= 750) {
+                    HTML.style.fontSize = 750 / designW * 100 + 'px';
+                    return;
+                }
+                HTML.style.fontSize = ratic * 100 + 'px';
+            }
+            computed();
+            window.addEventListener('resize', computed, false);
+        }();
+    </script>
+</head>
+
+<body>
+
+    <!-- main存放所有内容，大小为750px -->
+    <main class="mainBox">
+        <!-- 构建Swiper滑屏框架 -->
+        <div class="swiper-container">
+            <!-- 每一屏 -->
+            <div class="swiper-wrapper">
+                <!-- 每一页 -->
+                <!-- class="ani",想让谁有动画，这个必须要加swiper-animate-effect：这是动画效果或者自己写动画效果@keyframes 
+                swiper-animate-duration：设置动画持续时间
+                swiper-animate-delay:设置动画延迟时间 -->
+                <!-- 第一页 -->
+                <div class="swiper-slide page1">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay=".8s" src="image/hua1.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.3s"  swiper-animate-delay="1s" src="image/page1_2.png" alt="">
+                    <img class="ani" swiper-animate-effect= " rotateInDownLeft"  swiper-animate-duration="1s"  swiper-animate-delay=".5s" src="image/hua2.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInDownRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua3.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua3.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInDownRight"  swiper-animate-duration="1s"  swiper-animate-delay="1.5s" src="image/hua2.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua2.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="4.5s" src="image/hua4.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="4s" src="image/hua5.png" alt="">
+                    
+                    <span class="ani" swiper-animate-effect= "fadeInDownBig"  swiper-animate-duration="2s"  swiper-animate-delay="1.6s" >
+                        弯の4
+                    </span>
+                    <span class="ani" swiper-animate-effect= "fadeInDownBig"  swiper-animate-duration="2s"  swiper-animate-delay="1.7s" >口号：苍茫大地谁主沉浮</br>&emsp;&emsp;&emsp;&emsp;唯我四组笑傲江湖</span>
+                </div>
+                <!-- 第二页 -->
+                <div class="swiper-slide page2">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2.5s" src="image/hua8.png" alt="">
+                    <div class="imgBox1 ani" swiper-animate-effect= "fadeInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s">
+                        <img src="image/p1.jpg" alt="">
+                    </div>
+                    
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "rotateInDownLeft" swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;大家好，我叫陶鑫波。</p>
+                        <p class="ani" swiper-animate-effect= "rotateInDownRight" swiper-animate-duration="1.5s"  swiper-animate-delay="3.5s">&emsp;&emsp;我是义乌苏溪人，本科毕业于南京航天航空大学。我空闲时间喜欢玩游戏，各类游戏都略有涉及，四个字形容就是“人菜瘾大”。</p>
+                        <p class="ani" swiper-animate-effect= "rotateInDownLeft" swiper-animate-duration="1.5s"  swiper-animate-delay="4s">&emsp;&emsp;高中我还常常打篮球，最近几年打得少了。希望能和喜欢篮球的朋友一块打打球，锻炼锻炼减减肥。</p>
+                        <p class="ani" swiper-animate-effect= "rotateInDownRight" swiper-animate-duration="1.5s"  swiper-animate-delay="4.5s">&emsp;&emsp;谢谢各位，最后希望能和大家互相学习，共同成长。</p>
+                    </div>
+
+
+                </div>
+                <!-- 第三页 -->
+                <div class="swiper-slide page3">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "rotateInUpLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" >
+                        <img src="image/p2.JPG" alt="">
+                    </div>
+                    <div class="text">    
+                        <span class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s">&emsp;&emsp;大家好，我叫陈旦迎，今年22岁，来自浙江义乌，是一个性格开朗的女孩子，热爱运动，喜欢旅行，平时爱听音乐，爱看球赛，很高兴加入建行这个大家庭，希望未来可以和同学们一同进步、一起成长，遇见更好的自己。</span>
+                    </div>
+                </div>
+                <!-- 第四页 -->
+                <div class="swiper-slide page4">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    <img class="ani" swiper-animate-effect= "bounceIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1s" src="image/xian2.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s">
+                        <img src="image/p3.JPG" alt="">
+                    </div>
+                    
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "fadeInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3.5s" >&emsp;&emsp;大家好，我叫程昊，毕业于浙江财经大学会计学院会计系。我的性格积极开朗，在学校由于担任过团委宣传部长，有较强的宣传策划能力。平时喜欢写写毛笔字，剪剪视频，喝喝奶茶，哼哼歌。非常荣幸能够加入建行大家庭，希望能够在建行和大家打成一片。</p>
+                       
+                    </div>
+                </div>
+                <!-- 第五页 -->
+                <div class="swiper-slide page5">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2.5s" src="image/hua1.png" alt="">
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p4.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;大家好，我叫龚双庆，本科学的是金融学专业，我性格平易近人，喜欢看电影和动漫，如果有相同爱好的朋友可以和我一起交流。</p>
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3.5s" >&emsp;&emsp;我非常高兴也非常荣幸能够加入到建设银行这个大家庭中，这里给我提供了一个成长锻炼的良好平台。因为初来乍到，我还有许多方面的知识需要向大家学习，希望在以后的工作中大家可以多多指教。</p>
+                    </div>
+                </div>
+
+                <!-- 第六页 -->
+                <div class="swiper-slide page6">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p5.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;大家好，我叫黄建德，毕业于南京审计大学金审学院财务管理专业，我平时喜欢运动、追剧。我的性格比较开朗、随和，能与朋友们和睦相处，并且对生活充满信心。在学习和工作中，我都时常保持认真积极的态度，会努力把事情做到最好。“不傲才以骄人，不以宠而作威”是我的座右铭。在以后的日子里，希望能和同学们相处融洽！ </p>
+                        
+                    </div>
+                </div>
+
+                <!-- 第七页 -->
+                <div class="swiper-slide page7">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p6.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;大家好！我是毛亦航，来自浙江浦江，我性格开朗，为人正直，容易与人相处；平时爱好看电影电视剧，跑步和看书。</p>
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3.5s" >&emsp;&emsp;我十分高兴也十分荣幸的加入到建行义乌分行这个大家庭中来，这里不仅为我提供了一个成长锻炼,展示自我的平台，也让我有机会认识更多的新同事，新朋友！</p>
+                    </div>
+                </div>
+
+                <!-- 第八页 -->
+                <div class="swiper-slide page8">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p7.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;王成，毕业于上海财经大学浙江学院。平时喜欢美食探店，还喜欢玩一些养生活动，比如喝茶，看剧，慢跑等等，偶尔也需要开开卡丁车刺激一下。在以后的建行工作中，只要思想不滑坡，办法总比困难多。我这个人稍微有一点点慢热，但是天气这么热，大家一下子就熟了。 </p>
+                        
+                    </div>
+                </div>
+
+                <!-- 第九页 -->
+                <div class="swiper-slide page9">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p8.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;哈喽，大家好，我是爱吃、爱笑的来自义乌佛堂的“中国女排”选手朱婷。本人爱好广泛：喜欢听歌，最喜欢听电视剧里的ost；喜欢旅行，想要领略祖国的大好河山；喜欢吃吃喝喝，在快乐肥宅的路上渐行渐远…希望在建行大家庭里一起加油吧！ </p>
+                        
+                    </div>
+
+                </div>
+
+                <!-- 第十页 -->
+                <div class="swiper-slide page10">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p9.JPG" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >&emsp;&emsp;大家好，我是朱紫馨，喜欢行动不喜欢说。我平时喜欢做手工，特别是做重工的娃娃。喜欢小玩意儿，比如微缩场景——Re-ment的微缩，都很小巧精致，五脏俱全！古筝九级，虽然很久不练，但手速还是比较快的。很高兴和大家在建行相聚！ </p>
+                        
+                    </div>
+                </div>
+                <!-- 第十一页 -->
+                <div class="swiper-slide page11">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay="1s" src="image/hua2.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s"  swiper-animate-delay=".5s" src="image/hua3.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "rotateInDownLeft"  swiper-animate-duration="2s" swiper-animate-delay="1.5s" src="image/hua4.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0.5s" src="image/hua5.png" alt="">
+                    <img class="ani" swiper-animate-effect= "rotateInUpRight"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua6.png" alt="">
+                    <img  class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="0s" src="image/hua8.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="2s"  swiper-animate-delay="3s" src="image/hua9.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" src="image/hua10.png" alt="">
+                    <img class="ani" swiper-animate-effect= "zoomIn"  swiper-animate-duration="1.5s"  swiper-animate-delay="1.5s" src="image/hua11.png" alt="">
+                    
+                    <div class="imgBox1 ani" swiper-animate-effect= "flipInY"  swiper-animate-duration="1.5s"  swiper-animate-delay="2s" >
+                        <img src="image/p11.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <p class="ani" swiper-animate-effect= "bounceInLeft"  swiper-animate-duration="1.5s"  swiper-animate-delay="3s" >The End! </p>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- 滑动提示按钮 -->
+        <a href="javascript:;" class="previousTip"></a>
+        <!-- 音乐 -->
+        <a href="javascript:;" class="musicBox"></a>
+        <audio src="audio/bgm.mp3" controls loop autoplay preload="none" id="musicAudio"></audio>
+
+    </main>
+    <!-- IMPORT JS -->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.3.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
